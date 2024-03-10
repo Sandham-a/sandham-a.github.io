@@ -1,0 +1,470 @@
+/*-------------------------------------Imports--*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
+
+/*-------------------------------------Colors--*/
+
+body {
+  color: #7aa5d2;
+  background-color: #303841;
+}
+
+.content-text {
+  color: #47555e;
+}
+
+.content-heading {
+  color: #47555e;
+}
+
+#active-link {
+  color: #47555e;
+}
+
+.contact-links li a i:hover {
+  background: #47555e;
+  color: #303841;
+}
+
+/*-------------------------------------Header--*/
+
+.site-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.nav-item a {
+  text-align: center;
+  color: #7aa5d2;
+}
+
+#portrait-image {
+  background: url("../Images/hero-image.jpg") no-repeat center center;
+  background-size: 15em;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  height: 15em;
+  width: 15em;
+  border-radius: 50%;
+}
+
+.contact-links {
+  padding-bottom: 15px;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.2rem 0.5rem;
+}
+
+.nav-item a i {
+  padding-top: 5px;
+  color: #eeeeee;
+  font-size: 26px;
+}
+
+.nav-item span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.nav-item i:hover {
+  color: #47555e;
+  transition: all 0.35s ease-in-out;
+}
+
+
+.contact-title {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.contact-title h5 {
+  text-align: center;
+}
+
+.contact-links {
+  padding-top: 5px;
+  align-items: center;
+}
+
+.contact {
+  display: block;
+}
+
+.contact-links li{
+  display: inline;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.contact-links li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #eeeeee;
+  background: #7aa5d2;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+
+/*-------------------------------------content--*/
+
+.container-fluid{
+  padding-right:0;
+  padding-left:0;
+}
+
+.row{
+  margin-left:0;
+}
+
+
+.section-heading {
+  color: #47555e;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.content-body {
+  height: 100vh;
+  width: 100vh;
+  background-color: #eeeeee;
+}
+
+.content-body-long{
+  height: 100%;
+  background-color: #eeeeee;
+}
+
+.content-text {
+  display: block;
+  text-align: justify;
+}
+
+.content-heading {
+  display: block;
+  text-align: center;
+  color: #47555e;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+
+/*-------------------------------------Index--*/
+
+.contact-heading {
+  font-family: "Exo", sans-serif;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.center-form {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+button[type="submit"] {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #fafafa;
+  background-color: #47555e;
+}
+
+/*-------------------------------------About Page--*/
+.job-entry {
+  padding-bottom: 10px;
+  margin: 0;
+  display: flex;
+}
+
+#risual-image {
+  background: url("../Images/CV/risual\ logo.png") no-repeat center center;
+  background-size: 12em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  height: 7em;
+  width: 7em;
+  border-radius: 50%;
+}
+
+#dio-image {
+  background: url("../Images/CV/DIO\ logo.jpg") no-repeat center center;
+  background-size: 10em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  height: 7em;
+  width: 7em;
+  border-radius: 50%;
+}
+
+#wywm-image {
+  background: url("../Images/CV/WYWM\ logo.jpg") no-repeat center center;
+  background-size: 12em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  height: 7em;
+  width: 7em;
+  border-radius: 50%;
+}
+
+#army-image {
+  background: url("../Images/CV/signals\ logo.png") no-repeat center center;
+  background-size: 4em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  height: 7em;
+  width: 7em;
+  border-radius: 50%;
+}
+
+#delice-image {
+  background: url("../Images/CV/delice\ de\ france\ logo.png") no-repeat center
+    center;
+  background-size: 15em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  height: 7em;
+  width: 7em;
+  border-radius: 50%;
+}
+
+#staffs-fire-image {
+  background: url("../Images/CV/staffordshre\ fire\ and\ rescue\ logo.png")
+    no-repeat center center;
+  background-size: 15em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  height: 7em;
+  width: 7em;
+  border-radius: 50%;
+}
+
+.job-header {
+  text-align: left;
+  vertical-align: top;
+  padding-top: 20px;
+}
+
+.company-name {
+  text-align: left;
+  margin: 0;
+  padding-bottom: 5px;
+  font-family: "exo", sans-serif;
+  font-weight: 500;
+}
+
+.job-title {
+  text-align: left;
+  margin: 0;
+}
+
+.job-date {
+  margin: 0;
+  text-align: left;
+}
+
+.job-details {
+  color: #47555e;
+  display: block;
+  text-align: justify;
+  padding-left: 155px;
+  margin: 0;
+}
+
+#last-item {
+  padding-bottom: 5%;
+}
+
+
+/*-------------------------------------cloud--*/
+
+.cloud-image{
+  height: 200px;
+  width: 200px;
+  margin-left:auto;
+  margin-right:auto;
+  align-self: center;
+  display: block;
+}
+
+.cloud-image2{
+  height: 300px;
+  width: 600px;
+  margin-left:auto;
+  margin-right:auto;
+  align-self: center;
+  padding-top: 30px;
+}
+
+
+/*-------------------------------------cyber--*/
+
+.cyber-image{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-self: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+#center-image{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+/*-------------------------------------Web Dev--*/
+
+.code-institute-image {
+  display: block;
+  height: 100px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  padding-bottom: 20px;
+}
+
+.website-entry {
+  padding-bottom: 30px;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  vertical-align: text-top;
+}
+
+.website-thumbnail {
+  height: auto; /* Or 'auto' if you prefer the height to scale with the width */
+  width: 100%; /* Makes the image responsive within its container */
+  max-width: 300px; 
+}
+
+/* ----------------------------------------Media Query */
+
+@media(max-width: 1024px){
+
+  #portrait-image {
+    background-size: 10em;
+    height: 10em;
+    width: 10em;
+  }
+
+  .row{
+    justify-content: space-around;
+    margin-right: 0;
+  }
+
+  .cv-logo{
+    justify-content:flex-start !important;
+    }
+  
+  .job-header{
+    padding-left: 60px;
+  }  
+
+  .center-form{
+      padding-top: 30px;
+      min-height: 240px;
+      margin: 0 auto;
+      max-width: 50%;
+  }
+
+  #last-item {
+    padding-bottom: 2%;
+  }
+
+/*---Cyber Image--*/
+  .cyber-image{
+    height: 200px;
+    width: 200px;
+    padding-bottom: 0;
+  }
+
+  #center-image{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+
+@media(max-width: 768px){
+  .site-title h3{
+    font-size: 1.25rem;
+  }
+
+  .job-header{
+    padding-left: 80px;
+  }  
+
+
+  .nav-item a i {
+    font-size: 20px;
+  }
+
+  .website-thumbnail{
+    padding-bottom: 15px;
+  }
+  
+}
+
+@media(max-width: 425px){
+  .job-header{
+    text-align: center;
+  }
+
+  .content-body {
+    height: 100%;
+  }
+
+  .job-date{
+    padding-bottom: 15px;
+  }
+
+  .job-details{
+    padding-left: 0;
+    text-align: justify;
+  }
+
+  .content-body-long{
+    height:auto;
+  }
+
+  #last-item{
+    padding-bottom: 30px;
+  }
+}
