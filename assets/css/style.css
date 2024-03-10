@@ -38,7 +38,7 @@ body {
 }
 
 #portrait-image {
-  background: url("../Images/hero-image.jpg") no-repeat center center;
+  background: url("../images/hero-image.jpg") no-repeat center center;
   background-size: 15em;
   margin-top: 40px;
   margin-bottom: 30px;
@@ -198,7 +198,7 @@ button[type="submit"] {
 }
 
 #risual-image {
-  background: url("../Images/CV/risual\ logo.png") no-repeat center center;
+  background: url("../images/CV/risual\ logo.png") no-repeat center center;
   background-size: 12em;
   display: block;
   margin-left: auto;
@@ -210,7 +210,7 @@ button[type="submit"] {
 }
 
 #dio-image {
-  background: url("../Images/CV/DIO\ logo.jpg") no-repeat center center;
+  background: url("../images/CV/DIO\ logo.jpg") no-repeat center center;
   background-size: 10em;
   display: block;
   margin-left: auto;
@@ -222,7 +222,7 @@ button[type="submit"] {
 }
 
 #wywm-image {
-  background: url("../Images/CV/WYWM\ logo.jpg") no-repeat center center;
+  background: url("../images/CV/WYWM\ logo.jpg") no-repeat center center;
   background-size: 12em;
   display: block;
   margin-left: auto;
@@ -234,7 +234,7 @@ button[type="submit"] {
 }
 
 #army-image {
-  background: url("../Images/CV/signals\ logo.png") no-repeat center center;
+  background: url("../images/CV/signals\ logo.png") no-repeat center center;
   background-size: 4em;
   display: block;
   margin-left: auto;
@@ -246,7 +246,7 @@ button[type="submit"] {
 }
 
 #delice-image {
-  background: url("../Images/CV/delice\ de\ france\ logo.png") no-repeat center
+  background: url("../images/CV/delice\ de\ france\ logo.png") no-repeat center
     center;
   background-size: 15em;
   display: block;
@@ -259,7 +259,7 @@ button[type="submit"] {
 }
 
 #staffs-fire-image {
-  background: url("../Images/CV/staffordshre\ fire\ and\ rescue\ logo.png")
+  background: url("../images/CV/staffordshre\ fire\ and\ rescue\ logo.png")
     no-repeat center center;
   background-size: 15em;
   display: block;
