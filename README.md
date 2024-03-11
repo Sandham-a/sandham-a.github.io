@@ -3,7 +3,7 @@
 
 ![Mockup image](docs/am-i-responsive.jpg)
 
-[Live webpage](https://4n4ru.github.io/CI_MS1_BodelschwingherHof/)
+[Live webpage](https://sandham-a.github.io/portfolio_cv.html)
 
 ## Table of Content
 
@@ -40,14 +40,14 @@
 # Project Goals
 
 ## User Goals
-- Finding a website about me and my body of work
-- For users to have a more detailed CV
-- 
+- Finding a website about me and my body of work.
+- For users to have a more detailed CV.
+- Users to see the projects that I have been working on.
 
 ## Site Owner Goals
 - To show visitors an example of the various technologies that I use and examples of my work.
 - To allow myself to show a full digital CV which isn’t constrained by being two A4 Pages.
-- To have a centralized directory as a means to showcase website that I have built.
+- To have a centralized directory as a means to showcase websites that I have built.
 
 # User Experience
 
@@ -81,9 +81,11 @@
 10. As a returning user, I want to see the websites Adam has made.
 
 ## Site Owner
-13. As the site owner, I want users to find out users about me and my skill set
-14. As the site owner, I want users to see the projects I’ve done
-15. As the site owner, I want the users to be able to contact me about 
+11. As the site owner, I want to show that I can professional quality websites.
+12. As the site owner, I wish to show potential employers that I am professional.
+13. As the site owner, I want users to find out users about me and my skill set.
+14. As the site owner, I want users to see the projects I’ve done.
+15. As the site owner, I want the users to be able to contact me about. 
 
 # Design
 
@@ -91,18 +93,30 @@
 When designing the website, I was consciously aware that the previous bootstrap project was a portfolio website and would need to be very distinct from my own website. The website is designed to show case my various IT skills it would have to be clear, concise and look professional.
 
 ## Colour
-As dark blue is my favourite colour, I decided that would be the central colour as to base my website on. I used shecodes pallets which give me a pallet of complementary colours that work together and the hexadecimal values for the pallet of my choosing 
+As dark blue is my favourite colour, I decided that would be the central colour as to base my website on. I used shecodes pallets which give me a pallet of complementary colours that work together and the hexadecimal values for the pallet of my choosing. 
+![color scheme](docs/features/color-pallet.png)
 
 ## Fonts
-Pinyon script with cursive as fallback was used for the logo to match the sign outside the restaurant. Montserrat was used for the body and Roboto for headings. Both fonts are considered dyslexia friendly.
+I used exo font as it is a standard font for most corperate websites as it is clean and simple. The font is considered dyslexia friendly.
 
 ## Structure
-As stated before I was very aware of the previous project being a portfolio website 
-- A homepage with a sections for News and Sunday Meal Offers
-- An about page with the About Us and Meet the Chef
-- A menu page
-- A image gallery with images and video showcasing the general feel of the restaurant
-- A contact page with a contact form, a map and information about the bussines section
+As stated before I was very aware of the previous project being a portfolio website and needed to make sure that it did not look like a rehash of that. Having researched recommended portfolio sites
+I decided to do a vertical header rather than a standard horizontal one for 3 reasons - 
+
+1. The number of pages I needed mean that I doubted I'd come up with a layout that looked busy and cluttered. 
+2. In the future with more time and when my skills have improved I can create collapsible subheadings to make navigation around the site even more precise. 
+3. The layout means that the navigation of my site means that I can go to any page from any other page and that a users is only one click away from any page on the site.
+
+The page is structured, uniform, intuitive and simple to pick up. 
+The website consists of 7 pages
+
+- An index page with a form to get in contact with me.
+- A CV page that showcases my complete CV and allows for user interactivity with me highlighting the companies that I have worked for.
+- A cloud computing page showcasing my cloud qualifications and plans to spin up a cloud server to launch this site in the future.
+- A cyber security page explaining my educational background in cyber security, show the qualifications that I have and eventually and CTF articles that I write.
+- A programming page that showcase little programming projects that I have done in the past. Eventually the links will run a modal that runs the program but this falls outside the scope of this project.
+- A web development page that shows the websites that I have built or worked through. 
+- A page for when a 404 error occurs. 
 
 # Wireframes
 
@@ -120,6 +134,7 @@ As stated before I was very aware of the previous project being a portfolio webs
 - Gitpod
 - Google Fonts
 - Font Awesome
+- Balsamiq
 
 # Features
 
@@ -167,6 +182,7 @@ Feature	Action	Expected Result	Actual Result
 Map	Navigate to the Contact Us page, locate the Google Map	Locating a map showing the location of the restaurant	Works as expected
 Footer - contact information section	On any page scroll down to the footer	Find the address of the restaurant	Works as expected
 Screenshots
+
 2.	As a first time user, I want to know the price range
 Feature	Action	Expected Result	Actual Result
 Menu	Navigate to the Menu page	See prices on menu page	Works as expected
@@ -231,20 +247,23 @@ Screenshots
 
 # Bugs
 Bug	Fix
-Home page link stays highlighted when visiting another page	Change active atribute to the correct page
-The user can submit a contact form input without a message	Add required attribute to message input field
-Navbar divides into two rows on xs screen size	Add a media query to remove the right margin of the logo in the navbar on xs screen
+A blue boarder would appear on the right of the screen which was acceptable on a monitor but on smaller devices took up a lot of space. This required 
+Layout of CV is messy when file size shrinks to 786px and required the justified content to be over ridden and the padding for the text to look in line.
 Email overflows on xs screen size	Add a media query that makes the divs spread to 100% width on xs sreens to froce the content onto a seperate line
 When viewed on tablets, the contact page has whitespace after the footer	Set min-height for body to 100vh
 Deployment
+
 The website was deployed using GitHub Pages by following these steps:
 1.	In the GitHub repository navigate to the Settings tab
 2.	On the left hand menu select Pages
 3.	For the source select Branch: master
-4.	After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://4n4ru.github.io/CI_MS1_BodelschwingherHof/"
+4.	After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at <a href="https://sandham-a.github.io/portfolio_cv.html"> 
+https://sandham-a.github.io/portfolio_cv.html</a>  
+
 You can for fork the repository by following these steps:
 1.	Go to the GitHub repository
 2.	Click on Fork button in upper right hand corner
+
 You can clone the repository by following these steps:
 1.	Go to the GitHub repository
 2.	Locate the Code button above the list of files and click it
@@ -272,10 +291,7 @@ In order of apearance:
 
 Code
 In order of appearance:
--	The HTML for the responsive Navbar with toggler was taken from the Bootstrap v5.0 documentation code snippet and combined with their Navbar with Pills
--	Carousel on index page was taken from Bootrap v5.0 documentation code snippet
--	CSS code to avoid whitespace below footer was taken from a forum post on FreeCodeCamp
--	404 page was build using description on GitHub Docs
+- The contact links are copied from 
 
 # Acknowledgements
 I would like to take the opportunity to thank:
