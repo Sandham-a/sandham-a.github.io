@@ -67,7 +67,7 @@
 # User Stories
 
 ## First-time User
-1. As a first time user, what are Adam’s skillset is and what level he is ability is at.
+1. As a first time user, what are Adam’s skill set is and what level he is ability is at.
 2. As a first time user, I want to see examples of Adam’s programming skills as he stated  show in project he’s done.
 3. As a first time user, I want examples of website’s he has created.
 4. As a first time user, I want to know the qualifications that Adam has.
@@ -138,6 +138,7 @@ The website consists of 7 pages
 <details><summary>Web Development</summary>
 <img src="docs/wireframes/web_dev.png">
 </details>
+
 # Technologies Used
 
 ## Languages
@@ -169,14 +170,56 @@ The page consists of seven pages
 ## HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
 
+<details><summary>Index</summary>
+<img src="docs/validation/index_html_val.png">
+</details>
+<details><summary>CV</summary>
+<img src="docs/validation/portfolio_cv_html_val.png">
+</details>
+<details><summary>Cloud</summary>
+<img src="docs/validation/cloud_html_val.png">
+</details>
+<details><summary>Cyber</summary>
+<img src="docs/validation/cyber_html_val.png">
+</details>
+<details><summary>Programming</summary>
+<img src="docs/validation/coding_html_val.png">
+</details>
+<details><summary>Web Development</summary>
+<img src="docs/validation/web_dev_html_val.png">
+</details>
+
 ## CSS Validation
-The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website. The CSS page returned no errors. 
+The W3C CSS Validation Service was used to validate the CSS of the website. The CSS page returned no errors. 
+
+<details><summary>CSS Validation</summary>
+<img src="docs/validation/css_val.png">
+</details>
 
 ## Accessibility
 The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
 
 ## Performance
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. And scored 70+ in all areas
+
+<details><summary>Index</summary>
+<img src="docs/validation/lighthouse_index.png">
+</details>
+<details><summary>CV</summary>
+<img src="docs/validation/lighthouse_CV.png">
+</details>
+<details><summary>Cloud</summary>
+<img src="docs/validation/lighthouse_cloud.png">
+</details>
+<details><summary>Cyber</summary>
+<img src="docs/validation/lighthouse_cyber.png">
+</details>
+<details><summary>Programming</summary>
+<img src="docs/validation/lighthouse_programming.png">
+</details>
+<details><summary>Web Development</summary>
+<img src="docs/validation/lighthouse_web_dev.png">
+</details>
 
 Performing tests on various devices
 The website was tested on the following devices:
