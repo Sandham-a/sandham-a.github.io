@@ -97,7 +97,7 @@ As dark blue is my favourite colour, I decided that would be the central colour 
 ![color scheme](docs/features/color-pallet.png)
 
 ## Fonts
-I used exo font as it is a standard font for most corperate websites as it is clean and simple. The font is considered dyslexia friendly.
+I used exo font as it is a standard font for most corporate websites as it is clean and simple. The font is considered dyslexia friendly.
 
 ## Structure
 As stated before I was very aware of the previous project being a portfolio website and needed to make sure that it did not look like a rehash of that. Having researched recommended portfolio sites
@@ -120,7 +120,24 @@ The website consists of 7 pages
 
 # Wireframes
 
-
+<details><summary>Index</summary>
+<img src="docs/wireframes/Index.png">
+</details>
+<details><summary>CV</summary>
+<img src="docs/wireframes/Profile_CV.png">
+</details>
+<details><summary>Cloud</summary>
+<img src="docs/wireframes/cloud.png">
+</details>
+<details><summary>Cyber</summary>
+<img src="docs/wireframes/cyber.png">
+</details>
+<details><summary>Programming</summary>
+<img src="docs/wireframes/Programming.png">
+</details>
+<details><summary>Web Development</summary>
+<img src="docs/wireframes/web_dev.png">
+</details>
 # Technologies Used
 
 ## Languages
@@ -176,74 +193,8 @@ The website was tested on the following browsers:
 - Microsoft Edge
 - Opera GX
 
-Testing user stories
-1.	As a first time user, I want to see Adam's CV
-Feature	Action	Expected Result	Actual Result
-Map	Navigate to the Contact Us page, locate the Google Map	Locating a map showing the location of the restaurant	Works as expected
-Footer - contact information section	On any page scroll down to the footer	Find the address of the restaurant	Works as expected
-Screenshots
+# Testing user stories
 
-2.	As a first time user, I want to know the price range
-Feature	Action	Expected Result	Actual Result
-Menu	Navigate to the Menu page	See prices on menu page	Works as expected
-Screenshots
-3.	As a first time user, I want to know more about the restaurant
-Feature	Action	Expected Result	Actual Result
-About Us	Navigate to the About page and locate the About Us section	Find description of the restaurant	Works as expected
-Customer reviews	Navigate to the About page, scroll down to What our guests say section	Read customer reviews	Works as expected
-Screenshots
-4.	As a first time user, I want to get a feel of what to expect at the restaurant
-Feature	Action	Expected Result	Actual Result
-Gallery	Navigate to the Gallery page	Find pictures of the restaurant and food served there	Works as expected
-Promo video	Navigate to the GAlelry page and scroll to the promo video	Watch promo video	Works as expected
-Screenshots
-5.	As a returning user, I want to see the Sunday meal offer
-Feature	Action	Expected Result	Actual Result
-Meal-deal	On home page scroll down to the Sunday meal deal section	Find the meal-deal for the upcomming Sunday	Works as expected
-Screenshots
-6.	As a returnign user, I want to know the opening times
-Feature	Action	Expected Result	Actual Result
-Footer - opening times section	On any page scroll to the footer	See opening times	Works as expected
-Screenshots
-7.	As a returning user, I want to find a phone number to call for reservation
-Feature	Action	Expected Result	Actual Result
-Footer - contact information section	On any page scroll to the footer	See phone number	Works as expected
-Info Box	Navigate to Contact Us page and locate the How to find us section	See phone number	Works as expected
-Screenshots
-8.	As a returning user, I want to see the menu
-Feature	Action	Expected Result	Actual Result
-Menu	Navigate to the menu page	Read the menu	Works as expected
-Screenshots
-9.	As a returning user, I want to leave some comment, suggestion or message to the staff
-Feature	Action	Expected Result	Actual Result
-Contact Form	Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form	Data submited via contact form	Works as expectd
-Screenshots
-10.	As a returning user, I want to find the restaurant on social media
-Feature	Action	Expected Result	Actual Result
-Footer - social media section	On any page scroll to the bottom	Click on social media links	Works as expected
-Screenshots
-11.	As a returning user, I want to know who is preparing the food
-Feature	Action	Expected Result	Actual Result
-Meet the Chef	Navigate to the About page and scroll down to Meet the Chef section	Find brief bio of the Chef	Works as expected
-Screenshots
-12.	As a returning user, I want to get directions to the restaurant
-Feature	Action	Expected Result	Actual Result
-Map	Navigate to the Contact Us page, locate the map and click on directions link	See directions to the restaurant on Goole Maps	Works as expected
-Screenshots
-13.	As the site owner, I want users to find news about upcoming events or changes in opening times
-Feature	Action	Expected Result	Actual Result
-News	Scroll down on home page and locate news section	Find latest news	Works as expected
-Screenshots
-14.	As the site owner, I want users to get to know the restaurant
-Feature	Action	Expected Result	Actual Result
-About Us	Navigate to About page and locate About Us section	See relevant information about the restaurant	Works as expected
-Screenshots
-15.	As the site owner, I want the users to be able to contact us
-Feature	Action	Expected Result	Actual Result
-Contact Form	Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form	Data submited via contact form	Works as expectd
-Info Box	Navigate to Contact Us page and locate the How to find us section	Find the phone number	Works as expected
-Footer - contact information section	On any page scroll down to the footer	Find the phone number	Works as expected
-Screenshots
 
 # Bugs
 Bug	Fix
@@ -257,7 +208,7 @@ The website was deployed using GitHub Pages by following these steps:
 1.	In the GitHub repository navigate to the Settings tab
 2.	On the left hand menu select Pages
 3.	For the source select Branch: master
-4.	After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at <a href="https://sandham-a.github.io/portfolio_cv.html"> 
+4.	After the webpage refreshes automatically you will se a ribbon on the top saying: "Your site is published at <a href="https://sandham-a.github.io/portfolio_cv.html"> 
 https://sandham-a.github.io/portfolio_cv.html</a>  
 
 You can for fork the repository by following these steps:
@@ -276,22 +227,23 @@ You can clone the repository by following these steps:
 Images not referenced below are owned by the developer.
 Media
 In order of apearance:
--   [Portrait-Image](./assets/images/hero-image.jpg): was an internal photo at <a href="www.risual.com">Risual</a>
--   [Site-logo](./assets/images/gamespy_logo.jpg): was an image taken from <a href="www.gamespy.com">Gamespy's final article</a>
--   [Risual-logo](./assets/images/CV/risual_logo.png): was an image taken from <a href="www.risual.com">risual.com<a>
--   [DIO-logo](./assets/images/CV/DIO_logo.jpg): was an image taken from the DIO's own <a href="[www.wikipedia](https://en.wikipedia.org/wiki/Defence_Infrastructure_Organisation)">
+-   [Portrait-Image](./assets/images/hero-image.jpg) : was an internal photo at <a href="www.risual.com">Risual</a>
+-   [Site-logo](./assets/images/gamespy_logo.jpg) : was an image taken from <a href="www.gamespy.com">Gamespy's final article</a>
+-   [Risual-logo](./assets/images/CV/risual_logo.png) : was an image taken from <a href="www.risual.com">risual.com<a>
+-   [DIO-logo](./assets/images/CV/DIO_logo.jpg) : was an image taken from the DIO's own <a href="[www.wikipedia](https://en.wikipedia.org/wiki/Defence_Infrastructure_Organisation)">
     wikipedia article<a>
--   [With-you-with-me-logo](./assets/images/CV/WYWM_logo.jpg): was an image taken from WYWM's <a href="https://www.facebook.com/withyouwithme1/">facebook</a> page
--	[Royal-Corp-Of-Signals-logo](./assets/images/CV/signals_logo.png): was an image taken from the Royal Single's own <a href="https://en.wikipedia.org/wiki/Royal_Corps_of_Signals">
+-   [With-you-with-me-logo](./assets/images/CV/WYWM_logo.jpg) : was an image taken from WYWM's <a href="https://www.facebook.com/withyouwithme1/">facebook</a> page
+-	[Royal-Corp-Of-Signals-logo](./assets/images/CV/signals_logo.png) : was an image taken from the Royal Single's own <a href="https://en.wikipedia.org/wiki/Royal_Corps_of_Signals">
     wikipedia<a>
--   [Delice-de-France-logo](./assets/images/CV/delice_de_france_logo.png): was an image taken off the <a href="https://www.bacoffice.co.uk/case-study/delice-de-france/"> BAC's <a>
+-   [Delice-de-France-logo](./assets/images/CV/delice_de_france_logo.png) : was an image taken off the <a href="https://www.bacoffice.co.uk/case-study/delice-de-france/"> BAC's <a>
     case study.
--   [Staffordshire-fire-logo](./assets/images/CV/staffordshre_fire_and_rescue_logo.png): was an image taken off Staffordshire Fire and Rescues's 
+-   [Staffordshire-fire-logo](./assets/images/CV/staffordshre_fire_and_rescue_logo.png) : was an image taken off Staffordshire Fire and Rescues's 
     <a href="https://www.staffordshirefire.gov.uk/"> website </a>
 
 Code
 In order of appearance:
-- The contact links are copied from 
+- The contact links are copied from code institute's Rosie's portfolio and then altered to suit what I needed them to do. 
+- The form was also copied from Rosie's Portfolio. 
 
 # Acknowledgements
 I would like to take the opportunity to thank:
