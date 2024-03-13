@@ -1,7 +1,7 @@
 # Adam Sandham Portfolio
 (Developer: Adam Sandham)
 
-![Mockup image](docs/am-i-responsive.jpg)
+![Mockup image](docs/reactive_proof.png)
 
 [Live webpage](https://sandham-a.github.io/portfolio_cv.html)
 
@@ -245,7 +245,16 @@ A blue boarder would appear on the right of the screen which was acceptable on a
 Layout of CV is messy when file size shrinks to 786px and required the justified content to be over ridden and the padding for the text to look in line.
 Email overflows on xs screen size	Add a media query that makes the divs spread to 100% width on xs sreens to froce the content onto a seperate line
 When viewed on tablets, the contact page has whitespace after the footer	Set min-height for body to 100vh
-Deployment
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| blue boarder would appear on the right of the screen which was acceptable on a monitor but on smaller devices took up a lot of space | Change active atribute to the correct page |
+| The user can submit a contact form input without a message | Add required attribute to message input field |
+| Navbar divides into two rows on xs screen size | Add a media query to remove the right margin of the logo in the navbar on xs screen |
+| Email overflows on xs screen size | Add a media query that makes the divs spread to 100% width on xs sreens to froce the content onto a seperate line |
+| When viewed on tablets, the contact page has whitespace after the footer | Set min-height for body to 100vh |
+
+# Deployment
 
 The website was deployed using GitHub Pages by following these steps:
 1.	In the GitHub repository navigate to the Settings tab

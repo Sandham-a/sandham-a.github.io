@@ -195,6 +195,7 @@ button[type="submit"] {
   padding-bottom: 10px;
   margin: 0;
   display: flex;
+  
 }
 
 #risual-image {
@@ -299,7 +300,7 @@ button[type="submit"] {
   color: #47555e;
   display: block;
   text-align: justify;
-  padding-left: 155px;
+  padding-left: 160px;
   margin: 0;
 }
 
@@ -394,8 +395,6 @@ button[type="submit"] {
 }
 
 @media(max-width: 1024px){
-
-  
 
   #portrait-image {
     background-size: 10em;
