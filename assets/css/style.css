@@ -395,6 +395,8 @@ button[type="submit"] {
 
 @media(max-width: 1024px){
 
+  
+
   #portrait-image {
     background-size: 10em;
     height: 10em;
@@ -440,6 +442,16 @@ button[type="submit"] {
 }
 
 @media(max-width: 768px){
+  
+  .col-md-3{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .content-body {
+    height: 100vh;
+  }
+
   .site-title h3{
     font-size: 1.25rem;
   }
