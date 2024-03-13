@@ -240,16 +240,11 @@ The website was tested on the following browsers:
 
 
 # Bugs
-Bug	Fix
-A blue boarder would appear on the right of the screen which was acceptable on a monitor but on smaller devices took up a lot of space. This required 
-Layout of CV is messy when file size shrinks to 786px and required the justified content to be over ridden and the padding for the text to look in line.
-Email overflows on xs screen size	Add a media query that makes the divs spread to 100% width on xs sreens to froce the content onto a seperate line
-When viewed on tablets, the contact page has whitespace after the footer	Set min-height for body to 100vh
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
-| blue boarder would appear on the right of the screen which was acceptable on a monitor but on smaller devices took up a lot of space | Change active atribute to the correct page |
-| The user can submit a contact form input without a message | Add required attribute to message input field |
+| blue boarder would appear on the right of the screen which was acceptable on a monitor but on smaller devices took up a lot of space | altered row class to have no padding or margins |
+| Email icon overflows on xs screen size | Add a media query that makes the divs spread to 100% width on xs screens to force the content onto a separate line  |
 | Navbar divides into two rows on xs screen size | Add a media query to remove the right margin of the logo in the navbar on xs screen |
 | Email overflows on xs screen size | Add a media query that makes the divs spread to 100% width on xs sreens to froce the content onto a seperate line |
 | When viewed on tablets, the contact page has whitespace after the footer | Set min-height for body to 100vh |
@@ -260,8 +255,8 @@ The website was deployed using GitHub Pages by following these steps:
 1.	In the GitHub repository navigate to the Settings tab
 2.	On the left hand menu select Pages
 3.	For the source select Branch: master
-4.	After the webpage refreshes automatically you will se a ribbon on the top saying: "Your site is published at <a href="https://sandham-a.github.io/portfolio_cv.html"> 
-https://sandham-a.github.io/portfolio_cv.html</a>  
+4.	After the webpage refreshes automatically you will se a ribbon on the top saying: "Your site is published at <a href="https://sandham-a.github.io/"> 
+https://sandham-a.github.io/</a>  
 
 You can for fork the repository by following these steps:
 1.	Go to the GitHub repository
@@ -270,7 +265,7 @@ You can for fork the repository by following these steps:
 You can clone the repository by following these steps:
 1.	Go to the GitHub repository
 2.	Locate the Code button above the list of files and click it
-3.	Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+3.	Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
 4.	Open Git Bash
 5.	Change the current working directory to the one where you want the cloned directory
 6.	Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY) 7.Press Enter to create your local clone.
