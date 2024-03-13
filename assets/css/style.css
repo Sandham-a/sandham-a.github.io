@@ -378,7 +378,7 @@ button[type="submit"] {
 
 @media (min-width: 1440px){
   
-  .row{
+.row{
     flex-wrap: nowrap;
     justify-content: center;
   }
@@ -387,6 +387,10 @@ button[type="submit"] {
       flex: 0 0 33.333333%;
       max-width: 33.333333%;
   }
+}
+.job-entry{
+  flex-wrap:wrap;
+  justify-content: flex-start;
 }
 
 @media(max-width: 1024px){
