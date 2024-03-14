@@ -197,7 +197,22 @@ The W3C CSS Validation Service was used to validate the CSS of the website. The 
 </details>
 
 ## Accessibility
-The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 major errors but had issues with contrast which were not clearly shown by the site and using alternative colours for the hyperlinks would not have made it clear to other users that they were in fact links.
+<details><summary>CV</summary>
+<img src="docs/validation/CV_wave_val.png">
+</details>
+<details><summary>Cloud</summary>
+<img src="docs/validation/cloud_html_val.png">
+</details>
+<details><summary>Cyber</summary>
+<img src="docs/validation/cyber_wave_val.png">
+</details>
+<details><summary>Programming</summary>
+<img src="docs/validation/coding_wave_val.png">
+</details>
+<details><summary>Web Development</summary>
+<img src="docs/validation/web_dev_wave_val.png">
+</details>
 
 ## Performance
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. And scored 70+ in all areas
