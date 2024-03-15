@@ -369,43 +369,43 @@ The website was tested on the following browsers:
 |-------------|------------|---------------------|-------------------|
 | Contact Links | Click on LinkedIn button | Open up Adams LinkedIn profile | Works as expected |
 
-7. As a first time user I to go to Adam's public github repositories
+8. As a first time user I to go to Adam's public github repositories
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Contact Links | Click on github button | Open up Adams github repositories | Works as expected |
 
-7. As a first time user I want to send Adam an Email
+9. As a first time user I want to send Adam an Email
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Contact Links | Click on Email button | Open up new email | Works as expected |
 
-8. As a first time user I to go to companies that Adam has worked
+10. As a first time user I to go to companies that Adam has worked
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | logo links| Hover over logo and then click | The logo increase in size once the pointer hovers over and opens up new tab to the company homepage once its clicked | Works as expected |
 
-9. As a first time user I want to check if the qualifications that Adam have a legitimate
+11. As a first time user I want to check if the qualifications that Adam have a legitimate
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Cloud Badges, Security Badges | Hover over logo and then click | The logo increase in size once the pointer hovers over and opens up new tab to credly which independently verifies exam results | Works as expected |
 
-10. As a first time user I want to have a look at these programming projects 
+12. As a first time user I want to have a look at these programming projects 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Programming Projects | Click on link to programming projects | Open up a new tab to github repository | Works as expected |
 
-11. As a first time user I want to have a look at the websites Adam has created 
+13. As a first time user I want to have a look at the websites Adam has created 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Website showcase |  Hover over website preview and then click | The preview will increase in size once the pointer hovers over and opens up new tab to the repository | Works as expected |
 
-12. As a first time user I want to get back to the home page
+14. As a first time user I want to get back to the home page
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
