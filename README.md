@@ -311,7 +311,7 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 
 Performing tests on various devices
 The website was tested on the following devices:
-- 2 different home built PC's
+- 2 different home built PCs
 - Samsung Galaxy Tab A tablet
 - ASUS Vivobook K553EA
 
@@ -474,10 +474,9 @@ The website was tested on the following browsers:
 | **Bug** | **Fix** |
 | ----------- | ----------- |
 | blue boarder would appear on the right of the screen which was acceptable on a monitor but on smaller devices took up a lot of space | altered row class to have no padding or margins |
-| Email icon overflows on xs screen size | Add a media query that makes the divs spread to 100% width on xs screens to force the content onto a separate line  |
-| Navbar divides into two rows on xs screen size | Add a media query to remove the right margin of the logo in the navbar on xs screen |
-| Email overflows on xs screen size | Add a media query that makes the divs spread to 100% width on xs screens to force the content onto a separate line |
-| When viewed on tablets, the contact page has whitespace after the footer | Set min-height for body to 100vh |
+| Portrait would skew right at certain resolutions | reactive CSS to alter the size 
+| links would not stay central at certain resolutions | Overrode the row class to set it to have no margins or padding
+| When viewed on tablets, the contact page has bluespace after the footer | Set min-height for body to 100vh |
 
 # Deployment
 
