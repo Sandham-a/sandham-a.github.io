@@ -222,7 +222,6 @@ The page consists of seven pages
 
 ### Cloud Badges
 
-
 - Featured on the cloud page. 
 - The buttons are interactive as they will grow when a user hovers over them and when clicked will open up a new tab to a page about the qualification.
 
@@ -333,83 +332,142 @@ The website was tested on the following browsers:
 |-------------|------------|---------------------|-------------------|
 | Navigation Bar | Click on about Icon | Moved to the About page | Works as expected |
 
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-telling/click_on_CV_link.png">
+<img src="./docs/user-story-telling/CV_page_highlight.png">
+</details>
+
 2. As a first time user I want to see the information he has about cloud computing
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Navigation Bar | Click on cloud Icon | Moved to the cloud page | Works as expected |
 
-3. As a first time user I want to see the information he has about cloud computing
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-telling/click_on_cloud_link.png">
+<img src="./docs/user-story-telling/cloud_page_highlight.png">
+</details>
 
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Navigation Bar | Click on cloud Icon | Moved to the cloud page | Works as expected |
-
-4. As a first time user I want to see the information he has about cyber security
+3. As a first time user I want to see the information he has about cyber security
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Navigation Bar | Click on cyber security Icon | Moved to the cyber page | Works as expected |
 
-5. As a first time user I want to see the the programming projects he has done
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-telling/click_on_cyber_link.png">
+<img src="./docs/user-story-telling/cyber_page_highlight.png">
+</details>
+
+4. As a first time user I want to see the the programming projects he has done
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Navigation Bar | Click on coding Icon | Moved to the coding page | Works as expected |
 
-6. As a first time user I want to see the the websites he has created
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-telling/click_on_coding_link.png">
+<img src="./docs/user-story-telling/coding_page_highlight.png">
+</details>
+
+5. As a first time user I want to see the the websites he has created
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Navigation Bar | Click on web development Icon | Moved to the web development page | Works as expected |
 
-7. As a first time user I to go to Adam's LinkedIn page
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-telling/click_on_web_dev_link.png">
+<img src="./docs/user-story-telling/web_dev_page_highlight.png">
+</details>
+
+6. As a first time user I to go to Adam's LinkedIn page
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Contact Links | Click on LinkedIn button | Open up Adams LinkedIn profile | Works as expected |
 
-8. As a first time user I to go to Adam's public github repositories
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-telling/click_on_linkedin_link.png">
+<img src="./docs/user-story-telling/linkedin_page.png">
+</details>
+
+7. As a first time user I to go to Adam's public github repositories
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Contact Links | Click on github button | Open up Adams github repositories | Works as expected |
 
-9. As a first time user I want to send Adam an Email
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-telling/click_on_github_link.png">
+<img src="./docs/user-story-telling/github_page.png">
+</details>
+
+8. As a first time user I want to send Adam an Email
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Contact Links | Click on Email button | Open up new email | Works as expected |
 
-10. As a first time user I to go to companies that Adam has worked
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-telling/click_on_email_link.png">
+<img src="./docs/user-story-telling/email_link.png">
+</details>
+
+9. As a first time user I to go to companies that Adam has worked
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | logo links| Hover over logo and then click | The logo increase in size once the pointer hovers over and opens up new tab to the company homepage once its clicked | Works as expected |
 
-11. As a first time user I want to check if the qualifications that Adam have a legitimate
+
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-telling/click_on_job_link.png">
+<img src="./docs/user-story-telling/wywm_page.png">
+</details>
+
+10. As a first time user I want to check if the qualifications that Adam have a legitimate
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Cloud Badges, Security Badges | Hover over logo and then click | The logo increase in size once the pointer hovers over and opens up new tab to credly which independently verifies exam results | Works as expected |
 
-12. As a first time user I want to have a look at these programming projects 
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-telling/click_on_job_link.png">
+<img src="./docs/user-story-telling/wywm_page.png">
+</details>
+
+11. As a first time user I want to have a look at these programming projects 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Programming Projects | Click on link to programming projects | Open up a new tab to github repository | Works as expected |
 
-13. As a first time user I want to have a look at the websites Adam has created 
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-telling/click_on_project_link.png">
+<img src="./docs/user-story-telling/github-secret-messages.png">
+</details>
+
+12. As a first time user I want to have a look at the websites Adam has created 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Website showcase |  Hover over website preview and then click | The preview will increase in size once the pointer hovers over and opens up new tab to the repository | Works as expected |
 
-14. As a first time user I want to get back to the home page
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-telling/click_on_website_link.png">
+<img src="./docs/user-story-telling/cat_website.png">
+</details>
+
+13. As a first time user I want to get back to the home page
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Navigation Bar |  Hover over portrait and then click | The portrait will increase in size once the pointer hovers over and takes user back to the index page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="./docs/user-story-telling/click_on_index_link.png">
+</details>
 
 # Bugs
 
@@ -440,7 +498,8 @@ You can clone the repository by following these steps:
 3.	Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
 4.	Open Git Bash
 5.	Change the current working directory to the one where you want the cloned directory
-6.	Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY) 7.Press Enter to create your local clone.
+6.	Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY) 
+7.  Press Enter to create your local clone.
 
 # Credits
 Images not referenced below are owned by the developer.
