@@ -97,7 +97,7 @@ As dark blue is my favourite colour, I decided that would be the central colour 
 ![color scheme](docs/features/color-pallet.png)
 
 ## Fonts
-I used exo font as it is a standard font for most corporate websites as it is clean and simple. The font is considered dyslexia friendly.
+I used roberto font as it is a standard font for most corporate websites as it is clean and simple. The font is considered dyslexia friendly.
 
 ## Structure
 As stated before I was very aware of the previous project being a portfolio website and needed to make sure that it did not look like a rehash of that. Having researched recommended portfolio sites
@@ -154,7 +154,7 @@ The website consists of 7 pages
 - Font Awesome
 - Balsamiq
 
-# Features
+## Features
 
 The page consists of seven pages
 - Navigation Bar
@@ -163,7 +163,77 @@ The page consists of seven pages
 - Cyber Security Page
 - Programming Page
 - Web Development Page
-- Contact Form
+
+### Navigation Bar
+
+- Featured on all pages.
+- The navbar is fully responsive and icons change colour when cursor hovers over them links to the Homepage (in portrait), CV, cloud computing, cyber security,
+    coding and web development pages.
+- It allows users to easily navigate the pages.
+- portrait reacts when hovered over which should indicate to the user there is some interactivity
+- The icon changes colour for the page the user is currently on. 
+
+![Navigation Bar](docs/features/Navigation-Bar.png)
+
+### Contact Links
+
+- featured on all pages
+- These buttons are hyperlinks to my linkedIn profile, github public repository and also my email address.
+- The buttons will change colour when hovered over and selected.
+-  
+
+![Contact Links](docs/features/contact-links.png)
+
+### Contact Form
+
+- Featured on index pages.
+- Allows user to get in contact about potential work
+
+![Contact Form](docs/features/contact-form.png)
+
+### CV History
+
+- Featured on the CV page
+- Allows user to get an idea of my work history
+
+![CV History](docs/features/cv-history.png)
+
+### Logo Links
+
+- Featured on the CV page
+- The buttons are interactive as they will grow when a user hovers over them and when clicked will open up a new tab to the company's homepage.
+
+![Logo Links](docs/features/logo-links.png)
+
+### Programming Page
+
+- Featured on the coding page.
+- At present will is a hyperlink to the github repository
+- Future improvements when clicked it will open up a modal and will run the code. I just didn't have time and was outside the scope of this project.
+
+![Programming Page](docs/features/programming-page.png)
+
+### Security Badges
+
+- Featured on the cyber security page. 
+- The buttons are interactive as they will grow when a user hovers over them and when clicked will open up a new tab to a page about the qualification.
+
+![Contact Links](docs/features/security_badges.png)
+
+### Cloud Badges
+
+
+- Featured on the cloud page. 
+- The buttons are interactive as they will grow when a user hovers over them and when clicked will open up a new tab to a page about the qualification.
+
+![Contact Links](docs/features/cloud_badges.png)
+
+### Website Showcase
+
+- Featured on the web development page.
+- The image of the sites is interactive and leads to the github repository pages but will eventually be links to working websites.
+
+![Contact Links](docs/features/website_showcase.png)
 
 # Validation
 
@@ -198,6 +268,10 @@ The W3C CSS Validation Service was used to validate the CSS of the website. The 
 
 ## Accessibility
 The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 major errors but had issues with contrast which were not clearly shown by the site and using alternative colours for the hyperlinks would not have made it clear to other users that they were in fact links.
+
+<details><summary>Index</summary>
+<img src="docs/validation/index_wave_val.png">
+</details>
 <details><summary>CV</summary>
 <img src="docs/validation/CV_wave_val.png">
 </details>
@@ -253,6 +327,89 @@ The website was tested on the following browsers:
 
 # Testing user stories
 
+1. As a first time user I want to see Adam's CV
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | Click on about Icon | Moved to the About page | Works as expected |
+
+2. As a first time user I want to see the information he has about cloud computing
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | Click on cloud Icon | Moved to the cloud page | Works as expected |
+
+3. As a first time user I want to see the information he has about cloud computing
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | Click on cloud Icon | Moved to the cloud page | Works as expected |
+
+4. As a first time user I want to see the information he has about cyber security
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | Click on cyber security Icon | Moved to the cyber page | Works as expected |
+
+5. As a first time user I want to see the the programming projects he has done
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | Click on coding Icon | Moved to the coding page | Works as expected |
+
+6. As a first time user I want to see the the websites he has created
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | Click on web development Icon | Moved to the web development page | Works as expected |
+
+7. As a first time user I to go to Adam's LinkedIn page
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Links | Click on LinkedIn button | Open up Adams LinkedIn profile | Works as expected |
+
+7. As a first time user I to go to Adam's public github repositories
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Links | Click on github button | Open up Adams github repositories | Works as expected |
+
+7. As a first time user I want to send Adam an Email
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Links | Click on Email button | Open up new email | Works as expected |
+
+8. As a first time user I to go to companies that Adam has worked
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| logo links| Hover over logo and then click | The logo increase in size once the pointer hovers over and opens up new tab to the company homepage once its clicked | Works as expected |
+
+9. As a first time user I want to check if the qualifications that Adam have a legitimate
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Cloud Badges, Security Badges | Hover over logo and then click | The logo increase in size once the pointer hovers over and opens up new tab to credly which independently verifies exam results | Works as expected |
+
+10. As a first time user I want to have a look at these programming projects 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Programming Projects | Click on link to programming projects | Open up a new tab to github repository | Works as expected |
+
+11. As a first time user I want to have a look at the websites Adam has created 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Website showcase |  Hover over website preview and then click | The preview will increase in size once the pointer hovers over and opens up new tab to the repository | Works as expected |
+
+12. As a first time user I want to get back to the home page
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar |  Hover over portrait and then click | The portrait will increase in size once the pointer hovers over and takes user back to the index page | Works as expected |
 
 # Bugs
 
@@ -261,7 +418,7 @@ The website was tested on the following browsers:
 | blue boarder would appear on the right of the screen which was acceptable on a monitor but on smaller devices took up a lot of space | altered row class to have no padding or margins |
 | Email icon overflows on xs screen size | Add a media query that makes the divs spread to 100% width on xs screens to force the content onto a separate line  |
 | Navbar divides into two rows on xs screen size | Add a media query to remove the right margin of the logo in the navbar on xs screen |
-| Email overflows on xs screen size | Add a media query that makes the divs spread to 100% width on xs sreens to froce the content onto a seperate line |
+| Email overflows on xs screen size | Add a media query that makes the divs spread to 100% width on xs screens to force the content onto a separate line |
 | When viewed on tablets, the contact page has whitespace after the footer | Set min-height for body to 100vh |
 
 # Deployment
@@ -287,8 +444,9 @@ You can clone the repository by following these steps:
 
 # Credits
 Images not referenced below are owned by the developer.
+
 Media
-In order of apearance:
+In order of appearance:
 -   [Portrait-Image](./assets/images/hero-image.jpg) : was an internal photo at <a href="www.risual.com">Risual</a>
 -   [Site-logo](./assets/images/gamespy_logo.jpg) : was an image taken from <a href="www.gamespy.com">Gamespy's final article</a>
 -   [Risual-logo](./assets/images/CV/risual_logo.png) : was an image taken from <a href="www.risual.com">risual.com<a>
@@ -301,6 +459,12 @@ In order of apearance:
     case study.
 -   [Staffordshire-fire-logo](./assets/images/CV/staffordshre_fire_and_rescue_logo.png) : was an image taken off Staffordshire Fire and Rescues's 
     <a href="https://www.staffordshirefire.gov.uk/"> website </a>
+-   [Cloud+-badge](./assets/images/quals/Cloud+.png) : Was taken from CompTIA's cloud+ information <a href="https://www.comptia.org/certifications/cloud">page</a>
+-   [AZ900-image](./assets/images/quals/AZ-900.png) : Was taken from  Microsoft's AZ-900 exam <a href="https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/">page</a>
+-   [CYSA+-image](./assets/images/quals/CYSA+.png) : Was taken from CompTIA's CYSA+ information <a href="https://www.comptia.org/certifications/cybersecurity-analyst">page</a>
+-   [Security+-image](./assets/images/quals/security+.png) : Was taken from CompTIA's security+ information <a href="https://www.comptia.org/certifications/security">page</a>
+-   [Pentest-image](./assets/images/quals/security+.png) : Was taken from CompTIA's security+ information <a href="https://www.comptia.org/certifications/pentest">page</a>
+-   [Code-Institute-image](./assets/images/web_dev/code_institute.png) : Was taken from Code Institute's home <a href="http://www.codeinstitute.net">page</a>
 
 Code
 In order of appearance:
@@ -313,4 +477,3 @@ I would like to take the opportunity to thank:
 -	My girlfriend Nicola for allowing me time to do this project with my precious weekends with her.
 -	To the lovely people on the Code Institute Slack for providing peer code reviews and help with some of my trickier problems.
 -	My parents who own gave me child free time to work on this project.
-
